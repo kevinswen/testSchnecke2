@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="run" name="Rennschnecke_Example">
+
+	<target name="cleanup">
+		<delete dir="lib" />
+		<delete dir="reports" />
+	</target>
+	
+	<target name="create" depends="cleanup">
+		<mkdir dir="bin" />
+		<mkdir dir="lib" />
+		<mkdir dir="src" />
+		<mkdir dir="reports" />
+	</target>
+	
+	<target name="copy" depends="create">
+		<copy overwrite="true" todir="lib">
+			<fileset dir="/home/kevin/workspace/Rennschnecke_Example_Kopie/junit" includes="*.jar"></fileset>
+		</copy>
+		<copy overwrite="true" todir="src">
+			<fileset dir="/home/kevin/workspace/Rennschnecke_Example_Kopie/src" includes="*.java"></fileset>
+		</copy>
+	</target>
+	
+    <path id="JUnit 3.libraryclasspath">
+        <pathelement location="../../../../usr/share/eclipse/dropins/jdt/plugins/org.junit_3.8.2.dist/junit.jar"/>
+    </path>
+    <path id="Rennschnecke_Example_Kopie.classpath">
+        <pathelement location="bin"/>
+        <path refid="JUnit 3.libraryclasspath"/>
+    </path>
+	
+	<target name="compile" depends="copy">
+		<javac classpathref="Rennschnecke_Example(kopie).classpath" includeantruntime="true" srcdir="src" destdir="bin" description="Compiling Java files" includes="*.java">
+		</javac>
+	</target>
+	
+	<target name="run" depends="compile">
+		<!--java classpathref="classpath" classname="TestRunner" fork="true"></java>-->
+		<junit haltonfailure="false" printsummary="true">
+			<classpath refid="Rennschnecke_Example_Kopie.classpath"></classpath>
+			<test name="RennenTest" todir="reports"></test>
+			<test name="RennschneckeTest" todir="reports"></test>
+			<formatter type="xml"/>
+		</junit>
+	</target>
+		
+</project>
+		
+		
+		
