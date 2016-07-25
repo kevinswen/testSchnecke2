@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="kevin-VirtualBox" name="RennschneckeTest" skipped="0" tests="8" time="0.033" timestamp="2016-07-25T18:49:49">
+<testsuite errors="0" failures="0" hostname="kevin-VirtualBox" name="RennschneckeTest" skipped="0" tests="8" time="0.02" timestamp="2016-07-25T20:36:48">
   <properties>
     <property name="ant.project.invoked-targets" value="run" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
@@ -51,7 +51,7 @@
     <property name="user.name" value="kevin" />
     <property name="java.class.path" value="/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-antlr.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-apache-bcel.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-apache-bsf.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-apache-log4j.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-apache-oro.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-apache-regexp.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-apache-resolver.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-apache-xalan2.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-commons-logging.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-commons-net.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-javamail.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-jdepend.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-jmf.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-jsch.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-junit.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-junit4.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-launcher.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-swing.jar:/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant.jar:/home/kevin/.eclipse/org.eclipse.platform_3.8_155965261/configuration/org.eclipse.osgi/bundles/166/1/.cp/lib/antdebug.jar:/home/kevin/.eclipse/org.eclipse.platform_3.8_155965261/configuration/org.eclipse.osgi/bundles/166/1/.cp/lib/remote.jar:/home/kevin/.eclipse/org.eclipse.platform_3.8_155965261/configuration/org.eclipse.osgi/bundles/167/1/.cp/lib/remoteAnt.jar:/usr/lib/jvm/java-8-oracle/lib/tools.jar" />
     <property name="java.vm.specification.version" value="1.8" />
-    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1469472587142 -Declipse.connect.port=35603 -Declipse.pdebuild.home=/usr/lib/eclipse/dropins/sdk/plugins/org.eclipse.pde.build_3.8.1.dist/.// -Declipse.pdebuild.scripts=/usr/lib/eclipse/dropins/sdk/plugins/org.eclipse.pde.build_3.8.1.dist/scripts// -Declipse.pdebuild.templates=/usr/lib/eclipse/dropins/sdk/plugins/org.eclipse.pde.build_3.8.1.dist/templates// -Dant.home=/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /home/kevin/workspace/Rennschnecke_Example_Kopie/build.xml" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1469479007197 -Declipse.connect.port=40360 -Declipse.pdebuild.home=/usr/lib/eclipse/dropins/sdk/plugins/org.eclipse.pde.build_3.8.1.dist/.// -Declipse.pdebuild.scripts=/usr/lib/eclipse/dropins/sdk/plugins/org.eclipse.pde.build_3.8.1.dist/scripts// -Declipse.pdebuild.templates=/usr/lib/eclipse/dropins/sdk/plugins/org.eclipse.pde.build_3.8.1.dist/templates// -Dant.home=/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /home/kevin/workspace/Rennschnecke_Example_Kopie/build.xml" />
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre" />
     <property name="sun.arch.data.model" value="64" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
@@ -69,14 +69,14 @@
     <property name="sun.desktop" value="gnome" />
     <property name="sun.cpu.isalist" value="" />
   </properties>
-  <testcase classname="RennschneckeTest" name="testCheckKonstruktor" time="0.0" />
-  <testcase classname="RennschneckeTest" name="testCreateRennschneckeTestObject" time="0.0" />
-  <testcase classname="RennschneckeTest" name="testCheckGetRasse" time="0.0" />
+  <testcase classname="RennschneckeTest" name="testCheckToString" time="0.0" />
+  <testcase classname="RennschneckeTest" name="testCheckKonstruktor" time="0.001" />
+  <testcase classname="RennschneckeTest" name="testCheckGetName" time="0.0" />
   <testcase classname="RennschneckeTest" name="testCheckGetMaxSp" time="0.0" />
   <testcase classname="RennschneckeTest" name="testCheckGetStrecke" time="0.0" />
   <testcase classname="RennschneckeTest" name="testCheckKrieche" time="0.0" />
-  <testcase classname="RennschneckeTest" name="testCheckToString" time="0.0" />
-  <testcase classname="RennschneckeTest" name="testCheckGetName" time="0.0" />
+  <testcase classname="RennschneckeTest" name="testCheckGetRasse" time="0.0" />
+  <testcase classname="RennschneckeTest" name="testCreateRennschneckeTestObject" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

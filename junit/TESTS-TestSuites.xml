@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="kevin-VirtualBox" id="0" name="RennenTest" package="" skipped="0" tests="6" time="0.13" timestamp="2016-07-25T13:20:10">
+  <testsuite errors="0" failures="0" hostname="kevin-VirtualBox" id="0" name="RennenTest" package="" skipped="0" tests="6" time="0.173" timestamp="2016-07-25T20:15:50">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -14,7 +14,7 @@
 
           <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes" />
 
-          <property name="env.PWD" value="/home/kevin/workspace/Rennschnecke_Example" />
+          <property name="env.PWD" value="/home/kevin/workspace/Rennschnecke_Example_Kopie" />
 
           <property name="env.LANG" value="de_DE.UTF-8" />
 
@@ -24,9 +24,9 @@
 
           <property name="java.runtime.version" value="1.8.0_91-b14" />
 
-          <property name="ant.file.Rennschnecke_Example" value="/home/kevin/workspace/Rennschnecke_Example/build.xml" />
+          <property name="ant.file.Rennschnecke_Example" value="/home/kevin/workspace/Rennschnecke_Example_Kopie/build.xml" />
 
-          <property name="env.BUILD_DISPLAY_NAME" value="#139" />
+          <property name="env.BUILD_DISPLAY_NAME" value="#149" />
 
           <property name="user.name" value="jenkins" />
 
@@ -76,7 +76,7 @@
 
           <property name="user.country" value="DE" />
 
-          <property name="env.BUILD_NUMBER" value="139" />
+          <property name="env.BUILD_NUMBER" value="149" />
 
           <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre" />
 
@@ -86,13 +86,13 @@
 
           <property name="env.LOGNAME" value="jenkins" />
 
-          <property name="ant.file" value="/home/kevin/workspace/Rennschnecke_Example/build.xml" />
+          <property name="ant.file" value="/home/kevin/workspace/Rennschnecke_Example_Kopie/build.xml" />
 
           <property name="os.version" value="4.4.0-31-generic" />
 
           <property name="env.J2REDIR" value="/usr/lib/jvm/java-8-oracle/jre" />
 
-          <property name="env.HUDSON_COOKIE" value="14c83e93-558c-4020-8f16-70bcfe6e1275" />
+          <property name="env.HUDSON_COOKIE" value="a8ae8d6e-be90-42d4-9bb0-839f90627052" />
 
           <property name="path.separator" value=":" />
 
@@ -114,7 +114,7 @@
 
           <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
 
-          <property name="env.BUILD_TAG" value="jenkins-Rennschnecke-Job-139" />
+          <property name="env.BUILD_TAG" value="jenkins-Rennschnecke-Job-149" />
 
           <property name="user.home" value="/var/lib/jenkins" />
 
@@ -136,9 +136,9 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner RennenTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/kevin/workspace/Rennschnecke_Example/junit/TEST-RennenTest.xml crashfile=/home/kevin/workspace/Rennschnecke_Example/junitvmwatcher2879968154304365313.properties propsfile=/home/kevin/workspace/Rennschnecke_Example/junit7901060031762925987.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner RennenTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/kevin/workspace/Rennschnecke_Example_Kopie/junit/TEST-RennenTest.xml crashfile=/home/kevin/workspace/Rennschnecke_Example_Kopie/junitvmwatcher8714638301503565081.properties propsfile=/home/kevin/workspace/Rennschnecke_Example_Kopie/junit5107265621173961012.properties" />
 
-          <property name="java.class.path" value="/home/kevin/workspace/Rennschnecke_Example/bin:/usr/share/eclipse/dropins/jdt/plugins/org.junit_3.8.2.dist/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.6.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+          <property name="java.class.path" value="/home/kevin/workspace/Rennschnecke_Example_Kopie/bin:/usr/share/eclipse/dropins/jdt/plugins/org.junit_3.8.2.dist/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.6.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on July 8 2015" />
 
@@ -174,9 +174,9 @@
 
           <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext" />
 
-          <property name="env.BUILD_ID" value="139" />
+          <property name="env.BUILD_ID" value="149" />
 
-          <property name="user.dir" value="/home/kevin/workspace/Rennschnecke_Example" />
+          <property name="user.dir" value="/home/kevin/workspace/Rennschnecke_Example_Kopie" />
 
           <property name="env.GIT_BRANCH" value="origin/master" />
 
@@ -186,11 +186,11 @@
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
-          <property name="env.GIT_COMMIT" value="8f4950f6a3caf1ec64630c517c5549ac876db9b3" />
+          <property name="env.GIT_COMMIT" value="1d1fda06b5df30ef5209e881ccea76e261e4186c" />
 
           <property name="env.GIT_URL" value="https://github.com/kevinswen/testSchnecke.git" />
 
-          <property name="basedir" value="/home/kevin/workspace/Rennschnecke_Example" />
+          <property name="basedir" value="/home/kevin/workspace/Rennschnecke_Example_Kopie" />
 
           <property name="ant.java.version" value="1.8" />
 
@@ -208,36 +208,36 @@
 
           <property name="java.specification.version" value="1.8" />
 
-          <property name="ant.project.invoked-targets" value="RennenTest.testErmittleGewinner" />
+          <property name="ant.project.invoked-targets" value="compile" />
 
-          <property name="env.GIT_PREVIOUS_COMMIT" value="8f4950f6a3caf1ec64630c517c5549ac876db9b3" />
+          <property name="env.GIT_PREVIOUS_COMMIT" value="1d1fda06b5df30ef5209e881ccea76e261e4186c" />
 
           <property name="env.NODE_LABELS" value="master" />
 
       </properties>
 
-      <testcase classname="RennenTest" name="testErmittleGewinner" time="0.009" />
+      <testcase classname="RennenTest" name="testDurchführen" time="0.008" />
 
-      <testcase classname="RennenTest" name="testToString" time="0.006" />
+      <testcase classname="RennenTest" name="testErmittleGewinner" time="0.003" />
 
-      <testcase classname="RennenTest" name="testLasseSchneckenKriechen" time="0.001" />
+      <testcase classname="RennenTest" name="testLasseSchneckenKriechen" time="0.0" />
 
       <testcase classname="RennenTest" name="testKonstruktor" time="0.0" />
 
-      <testcase classname="RennenTest" name="testRemoveRennschnecke" time="0.001" />
+      <testcase classname="RennenTest" name="testRemoveRennschnecke" time="0.0" />
 
-      <testcase classname="RennenTest" name="testDurchführen" time="0.003" />
+      <testcase classname="RennenTest" name="testToString" time="0.001" />
 
       <system-out><![CDATA[Gewinner ist	Name:	Test
 Rasse:	Test
 Höchstgeschwindigkeit:	1000
-Strecke:	10110
+Strecke:	10296
 ]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="kevin-VirtualBox" id="1" name="RennschneckeTest" package="" skipped="0" tests="8" time="0.131" timestamp="2016-07-25T13:20:09">
+  <testsuite errors="0" failures="0" hostname="kevin-VirtualBox" id="1" name="RennschneckeTest" package="" skipped="0" tests="8" time="0.154" timestamp="2016-07-25T20:15:49">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -251,7 +251,7 @@ Strecke:	10110
 
           <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes" />
 
-          <property name="env.PWD" value="/home/kevin/workspace/Rennschnecke_Example" />
+          <property name="env.PWD" value="/home/kevin/workspace/Rennschnecke_Example_Kopie" />
 
           <property name="env.LANG" value="de_DE.UTF-8" />
 
@@ -261,9 +261,9 @@ Strecke:	10110
 
           <property name="java.runtime.version" value="1.8.0_91-b14" />
 
-          <property name="ant.file.Rennschnecke_Example" value="/home/kevin/workspace/Rennschnecke_Example/build.xml" />
+          <property name="ant.file.Rennschnecke_Example" value="/home/kevin/workspace/Rennschnecke_Example_Kopie/build.xml" />
 
-          <property name="env.BUILD_DISPLAY_NAME" value="#139" />
+          <property name="env.BUILD_DISPLAY_NAME" value="#149" />
 
           <property name="user.name" value="jenkins" />
 
@@ -313,7 +313,7 @@ Strecke:	10110
 
           <property name="user.country" value="DE" />
 
-          <property name="env.BUILD_NUMBER" value="139" />
+          <property name="env.BUILD_NUMBER" value="149" />
 
           <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre" />
 
@@ -323,13 +323,13 @@ Strecke:	10110
 
           <property name="env.LOGNAME" value="jenkins" />
 
-          <property name="ant.file" value="/home/kevin/workspace/Rennschnecke_Example/build.xml" />
+          <property name="ant.file" value="/home/kevin/workspace/Rennschnecke_Example_Kopie/build.xml" />
 
           <property name="os.version" value="4.4.0-31-generic" />
 
           <property name="env.J2REDIR" value="/usr/lib/jvm/java-8-oracle/jre" />
 
-          <property name="env.HUDSON_COOKIE" value="14c83e93-558c-4020-8f16-70bcfe6e1275" />
+          <property name="env.HUDSON_COOKIE" value="a8ae8d6e-be90-42d4-9bb0-839f90627052" />
 
           <property name="path.separator" value=":" />
 
@@ -351,7 +351,7 @@ Strecke:	10110
 
           <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
 
-          <property name="env.BUILD_TAG" value="jenkins-Rennschnecke-Job-139" />
+          <property name="env.BUILD_TAG" value="jenkins-Rennschnecke-Job-149" />
 
           <property name="user.home" value="/var/lib/jenkins" />
 
@@ -373,9 +373,9 @@ Strecke:	10110
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner RennschneckeTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/kevin/workspace/Rennschnecke_Example/junit/TEST-RennschneckeTest.xml crashfile=/home/kevin/workspace/Rennschnecke_Example/junitvmwatcher6473802451102709430.properties propsfile=/home/kevin/workspace/Rennschnecke_Example/junit5175575144543046428.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner RennschneckeTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/kevin/workspace/Rennschnecke_Example_Kopie/junit/TEST-RennschneckeTest.xml crashfile=/home/kevin/workspace/Rennschnecke_Example_Kopie/junitvmwatcher2995391292952214877.properties propsfile=/home/kevin/workspace/Rennschnecke_Example_Kopie/junit1616901818596353291.properties" />
 
-          <property name="java.class.path" value="/home/kevin/workspace/Rennschnecke_Example/bin:/usr/share/eclipse/dropins/jdt/plugins/org.junit_3.8.2.dist/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.6.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+          <property name="java.class.path" value="/home/kevin/workspace/Rennschnecke_Example_Kopie/bin:/usr/share/eclipse/dropins/jdt/plugins/org.junit_3.8.2.dist/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.6.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on July 8 2015" />
 
@@ -411,9 +411,9 @@ Strecke:	10110
 
           <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext" />
 
-          <property name="env.BUILD_ID" value="139" />
+          <property name="env.BUILD_ID" value="149" />
 
-          <property name="user.dir" value="/home/kevin/workspace/Rennschnecke_Example" />
+          <property name="user.dir" value="/home/kevin/workspace/Rennschnecke_Example_Kopie" />
 
           <property name="env.GIT_BRANCH" value="origin/master" />
 
@@ -423,11 +423,11 @@ Strecke:	10110
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
-          <property name="env.GIT_COMMIT" value="8f4950f6a3caf1ec64630c517c5549ac876db9b3" />
+          <property name="env.GIT_COMMIT" value="1d1fda06b5df30ef5209e881ccea76e261e4186c" />
 
           <property name="env.GIT_URL" value="https://github.com/kevinswen/testSchnecke.git" />
 
-          <property name="basedir" value="/home/kevin/workspace/Rennschnecke_Example" />
+          <property name="basedir" value="/home/kevin/workspace/Rennschnecke_Example_Kopie" />
 
           <property name="ant.java.version" value="1.8" />
 
@@ -445,29 +445,29 @@ Strecke:	10110
 
           <property name="java.specification.version" value="1.8" />
 
-          <property name="ant.project.invoked-targets" value="RennschneckeTest" />
+          <property name="ant.project.invoked-targets" value="compile" />
 
-          <property name="env.GIT_PREVIOUS_COMMIT" value="8f4950f6a3caf1ec64630c517c5549ac876db9b3" />
+          <property name="env.GIT_PREVIOUS_COMMIT" value="1d1fda06b5df30ef5209e881ccea76e261e4186c" />
 
           <property name="env.NODE_LABELS" value="master" />
 
       </properties>
 
-      <testcase classname="RennschneckeTest" name="testCheckGetMaxSp" time="0.002" />
+      <testcase classname="RennschneckeTest" name="testCheckGetMaxSp" time="0.006" />
 
-      <testcase classname="RennschneckeTest" name="testCreateRennschneckeTestObject" time="0.002" />
+      <testcase classname="RennschneckeTest" name="testCheckGetRasse" time="0.009" />
 
-      <testcase classname="RennschneckeTest" name="testCheckGetName" time="0.001" />
+      <testcase classname="RennschneckeTest" name="testCheckToString" time="0.003" />
 
-      <testcase classname="RennschneckeTest" name="testCheckKonstruktor" time="0.0" />
+      <testcase classname="RennschneckeTest" name="testCheckGetName" time="0.0" />
 
-      <testcase classname="RennschneckeTest" name="testCheckGetRasse" time="0.0" />
+      <testcase classname="RennschneckeTest" name="testCreateRennschneckeTestObject" time="0.0" />
 
       <testcase classname="RennschneckeTest" name="testCheckGetStrecke" time="0.0" />
 
       <testcase classname="RennschneckeTest" name="testCheckKrieche" time="0.0" />
 
-      <testcase classname="RennschneckeTest" name="testCheckToString" time="0.003" />
+      <testcase classname="RennschneckeTest" name="testCheckKonstruktor" time="0.0" />
 
       <system-out><![CDATA[]]></system-out>
 
